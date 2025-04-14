@@ -17,10 +17,10 @@
    ```
    module.exports = {
    env: {
-       baseurl: 'https://thn-buurtzorg.cybozu.com',
-       username: 'kintone帳號',
-       password: 'kintone帳號',
-       appid: '應用程式id',
+       baseurl: '你的 Kintone 網域',
+       username: '你的 Kintone 帳號',
+       password: '你的 Kintone 帳號',
+       appid: '你的 Kintone App ID',
    },
    }
    ```

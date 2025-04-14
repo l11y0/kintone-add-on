@@ -1,0 +1,53 @@
+.app {
+  flex: 1;
+  font-family: system-ui;
+  text-align: center;
+  background-color: #12345678;
+}
+
+.kintone-app-header-space {
+  padding: 0 20px 20px 20px;
+  display: flex;
+}
+
+input {
+  width: 150px;
+}
+
+select {
+  width: 150px;
+  height: 30px;
+}
+
+.input-area {
+  display: flex;
+}
+
+.group {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.custom-button {
+  border-radius: 10%;
+  border: none;
+  margin: 0 10px;
+  box-shadow: 3px 3px 5px 0 #cccccc8f;
+  transition: all 0.5s;
+}
+
+.custom-button:hover {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 5px 0 #cccccc8f;
+}
+
+#user-js-confirmBtn {
+  padding: 4px 0;
+  text-align: center;
+}
+
+#user-js-icon {
+  padding: 4px 0;
+  font-size: 1.5em;
+}
